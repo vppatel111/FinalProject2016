@@ -1,0 +1,30 @@
+Vishal Patel, Max Scales - EA1
+
+Accessories:
+- LCD Screen
+- Joystick
+
+Wiring Instructions:
+- Standard wiring for the joystick and sceen used in Assignment #2
+http://ugweb.cs.ualberta.ca/~c274/web/ConcreteComputing/section/adafruit_lcd.htm
+
+-Also see attached Figure 1 for the orientation of joystick and LCD screen
+
+To run the project:
+Requirements: -Have LCD Screen and Joystick set up in given configuration.
+-Have title.lcd downloaded onto the mini-SD card for the LCD screen.
+-Have EEPROM initialized (highscoreTable), see below for further instructions.
+
+- From command terminal: 1. Navigate to the FinalProject directory using "cd".
+2. Then initialize the EEPROM by navigating to the initializeHighscore folder
+using "cd" and typing "make upload", to initialize a dummy highscore table.
+3. Now we can run the game by navigating back to the FinalProject folder and
+typing "make upload".
+
+Note: To reinitialize the highscore board, navigate back to the initializeHighscore
+folder and simply "make upload" again to reset the values.
+
+Additional Features (added after demo):
+-When a player gets a highscore they are able to enter their initials.
+-Highscore table, that stores up to 12 highscores and a player's initials
+in the EEPROM and displays the table when the option is selected at a game over.

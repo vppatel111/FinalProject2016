@@ -1,0 +1,13 @@
+Project Title: Breaker
+
+Team Members: Vishal Patel, Max Scales
+
+Description: Breaker was a popular atari game released in April 1976.
+In breaker the top layer of the screen is lined with multi-colour bricks
+and the bottom layer has a controllable paddle the entire screen is surrounded
+by walls, a small ball bounces from the paddle to the bricks, when the ball
+hits the paddle it bounces up towards the bricks, when the ball hits a brick
+the brick disappears and it bounces back down, the ball can also bounce off
+of walls. The objective of the game is to clear all the bricks without having
+the ball fall off the screen, that is, the player fails to bounce back up the
+ball and it goes past the paddle.
